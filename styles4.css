@@ -1,0 +1,42 @@
+.wapper {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-image: url(Pictures-Background-HD.jpg);
+    width: 80%;
+}
+
+.wapper-one {
+    width: 20%;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.wapper-one p {
+    margin: 0;
+}
+
+.wapper-one .d1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.wapper-one .d2 {
+    font-size: 12px;
+}
+
+.wapper-one i {
+    margin-bottom: 10px;
+}
+
+.page {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

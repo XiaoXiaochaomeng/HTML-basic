@@ -1,0 +1,49 @@
+.wapper-top {
+    height: 500px;
+    width: 100%;
+    border-bottom: 1px solid rgb(206, 192, 192);
+    margin-bottom: 100px;
+}
+
+.wapper-bottom {
+    height: 500px;
+    width: 100%;
+}
+
+.page {
+    height: 1000px;
+    margin: 100px;
+}
+
+.content {
+    width: 50%;
+    float: left;
+}
+
+.content-img {
+    width: 50%;
+    float: left;
+}
+
+.content-icon {
+    width: 50%;
+    float: left;
+}
+
+.input-1 {
+    border: none;
+    color: white;
+    background: rgb(96, 96, 237);
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.input-2 {
+    border: none;
+    color: white;
+    background: rgb(96, 237, 103);
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}

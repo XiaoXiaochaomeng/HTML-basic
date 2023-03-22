@@ -1,0 +1,23 @@
+.wapper {
+    width: 100%;
+}
+
+.block {
+    background-color: rgb(240, 236, 231);
+    width: 20%;
+    height: 300px;
+    margin: 40px;
+    float: left;
+}
+
+.block img {
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.block h2,
+p {
+    text-align: center;
+}

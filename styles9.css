@@ -1,0 +1,70 @@
+.page {
+    width: 50%;
+    height: 500px;
+}
+
+.header p {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(255, 208, 0);
+    text-align: center;
+}
+
+.wapper {
+    height: 400px;
+    width: 100%;
+}
+
+.content {
+    width: 45%;
+    height: 200px;
+    margin: 10px 10px 0 10px;
+    float: left;
+}
+
+.logo-3 {
+    width: 100%;
+    height: 50%;
+    background: url(Apple-logo-images.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: 60px;
+}
+
+.logo-2 {
+    width: 100%;
+    height: 50%;
+    background: url(th.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: 150px;
+}
+
+.logo-1 {
+    width: 100%;
+    height: 50%;
+    background: url(ibm.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: 150px;
+}
+
+.logo-4 {
+    width: 100%;
+    height: 50%;
+    background: url(google.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: 150px;
+}
+
+.content-logo p {
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+}

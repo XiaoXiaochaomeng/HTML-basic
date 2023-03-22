@@ -1,0 +1,36 @@
+.wapper h3 {
+    text-transform: uppercase;
+}
+
+.wapper {
+    width: 50%;
+    height: 500px;
+}
+
+.comment {
+    background-color: rgb(245, 243, 239);
+}
+
+.icon {
+    border: 1px solid black;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.comment-name {
+    float: left;
+    width: 50%;
+}
+
+.comment-icon {
+    float: left;
+    width: 50%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+.header-comment {
+    width: 100%;
+    height: 80px;
+}
