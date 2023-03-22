@@ -20,15 +20,12 @@
 }
 
 .wapper .info {
-    width: 30%;
+    width: 200px;
     float: left;
-    height: 100%;
 }
 
 .wapper .write {
-    width: 70%;
     float: left;
-    height: 100%;
 }
 
 
@@ -41,11 +38,17 @@
     padding-top: 10px;
     margin: 15px;
     color: #999;
+    display: flex;
+}
+
+.info-user i {
+    margin-right: 10px;
 }
 
 .write p {
     font-size: 16px;
     text-transform: capitalize;
+    margin-bottom: 20px;
 }
 
 .input-text {
@@ -69,9 +72,22 @@
 
 .input-submit input {
     border: none;
-    padding: 5px;
-    border-radius: 5px;
-    background-color: rgb(62, 133, 213);
+    padding: 10px;
+    background-color: #2cb19f;
     color: white;
     cursor: pointer;
+}
+
+@media only screen and (min-width:1024px) {
+    .write {
+        width: 600px;
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .write {
+        width: 300px;
+        margin-left: 50px;
+    }
 }

@@ -82,5 +82,17 @@
 }
 
 .text-please p {
-    margin: 0;
+    margin-left: 100px;
+}
+
+@media only screen and (max-width:1024px) {
+    .text-please p {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .footer {
+        display: block;
+    }
 }

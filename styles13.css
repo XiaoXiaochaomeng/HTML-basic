@@ -1,0 +1,22 @@
+.page {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.wapper {
+    width: 800px;
+}
+
+.header p {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 5px 0;
+}
+
+.soild {
+    width: 50px;
+    border: 2px solid rgb(24, 134, 185);
+}

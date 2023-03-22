@@ -8,7 +8,7 @@
 .wapper {
     width: 600px;
     height: 300px;
-    background-color: rgb(245, 246, 242);
+    background-color: #f1f1f1;
 }
 
 h1,
@@ -41,8 +41,18 @@ p {
     padding: 0 20px 0 20px;
 }
 
-.wapper i {
+.icon {
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    border: 1px solid aqua;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 10px;
+}
+
+.wapper i {
+    margin-top: 10px;
+    color: aqua;
 }

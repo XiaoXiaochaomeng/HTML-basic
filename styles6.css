@@ -1,12 +1,18 @@
-.wapper {
+.page {
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.wapper {
+    width: 80%;
 }
 
 .block {
-    background-color: rgb(240, 236, 231);
-    width: 20%;
-    height: 300px;
-    margin: 40px;
+    background-color: #f7f7f7;
+    width: 350px;
+    height: 250px;
+    margin: 20px;
     float: left;
 }
 
@@ -20,4 +26,8 @@
 .block h2,
 p {
     text-align: center;
+}
+
+.block p {
+    color: #999;
 }

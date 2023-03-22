@@ -1,49 +1,52 @@
-.wapper-top {
-    height: 500px;
-    width: 100%;
-    border-bottom: 1px solid rgb(206, 192, 192);
-    margin-bottom: 100px;
-}
-
-.wapper-bottom {
-    height: 500px;
-    width: 100%;
-}
-
 .page {
-    height: 1000px;
-    margin: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.content {
-    width: 50%;
-    float: left;
+.container {
+    width: 850px;
 }
 
-.content-img {
-    width: 50%;
-    float: left;
+.wapper-top {
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 50px;
 }
 
-.content-icon {
-    width: 50%;
-    float: left;
+.wapper-top .content {
+    width: 500px;
+    margin-right: 50px;
 }
 
-.input-1 {
+.wapper-bottom .content {
+    width: 500px;
+    margin-left: 50px;
+}
+
+.wapper-top .content input {
     border: none;
     color: white;
-    background: rgb(96, 96, 237);
-    border-radius: 20px;
+    background-color: rgb(57, 152, 216);
+    border-radius: 15px;
     padding: 10px;
-    cursor: pointer;
 }
 
-.input-2 {
+.wapper-bottom .content input {
     border: none;
     color: white;
-    background: rgb(96, 237, 103);
-    border-radius: 20px;
+    background-color: rgb(107, 216, 57);
+    border-radius: 15px;
     padding: 10px;
-    cursor: pointer;
+}
+
+@media only screen and (min-width:1024px) {
+    .wapper-top {
+        display: flex;
+        justify-content: center;
+    }
+
+    .wapper-bottom {
+        display: flex;
+        justify-content: center;
+    }
 }
