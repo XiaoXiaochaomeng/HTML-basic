@@ -1,36 +1,71 @@
-.wapper h3 {
-    text-transform: uppercase;
-}
-
-.wapper {
-    width: 50%;
-    height: 500px;
-}
-
-.comment {
-    background-color: rgb(245, 243, 239);
-}
-
-.icon {
-    border: 1px solid black;
-    padding: 5px;
-    margin-right: 10px;
-}
-
-.comment-name {
-    float: left;
-    width: 50%;
-}
-
-.comment-icon {
-    float: left;
-    width: 50%;
-    margin-top: 20px;
-    display: flex;
-    justify-content: right;
-}
-
-.header-comment {
+.page{
     width: 100%;
-    height: 80px;
+    display:flex;
+    justify-content:center;
+}
+
+.wapper{
+    width: 720px;
+}
+
+.comment{
+    padding: 10px;
+    background-color: #f7f7f7;
+    margin-bottom: 10px;
+}
+
+.wapper-comment{
+    height: 120px;
+}
+
+.name-comment{
+    height: 50px;
+    width: 650px;
+    float:left;
+}
+
+.comment-icon{
+    height:50px;
+    width: 50px;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.icon{
+    padding: 5px;
+    border: 1px solid #DDDDDD;
+}
+
+.header-comment{
+    height: 60px;
+}
+
+.comment-text{
+     width: 600px;
+     height: 75px   ;
+}
+
+.text-comment P{
+    margin: 0;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size:16px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 740px){
+    .name-comment{
+        width: 400px;
+    }
+}
+
+@media only screen and ( max-width: 500px){
+    .text-comment{
+        float: left;
+    }
+
+    .comment{
+        height:200px;
+    }
 }

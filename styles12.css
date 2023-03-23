@@ -1,5 +1,5 @@
 .container {
-    width: 60%;
+    width: 1000px;
 }
 
 .container p {
@@ -85,9 +85,18 @@
     }
 }
 
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width:1023px) {
     .write {
         width: 300px;
         margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .wapper .info{
+        float: none;
+    }
+    .write{
+        margin: 0;
     }
 }
