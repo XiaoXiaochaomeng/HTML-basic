@@ -3,7 +3,7 @@ body {
 }
 
 .page {
-    background-image: url(tree-736885__340.jpg);
+    background-image: linear-gradient(to right, rgba(44, 43, 43, 0.664), rgba(34, 34, 34, 0.5)), url(tree-736885__340.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;

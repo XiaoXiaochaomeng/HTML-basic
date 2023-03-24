@@ -40,3 +40,34 @@
     display: flex;
     justify-content: center;
 }
+
+@media only screen and (max-width: 740px) {
+    .wapper{
+        height: 250px;
+        display: block;
+    }
+
+    .wapper-one{
+        width: 50%;
+        float: left;
+        height: 100px;
+    }
+
+    .container{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .wapper{
+        display: block;
+    }
+
+    .wapper-one{
+        width: 100%;
+    }
+
+    .container{
+        width: 100%;
+    }
+}

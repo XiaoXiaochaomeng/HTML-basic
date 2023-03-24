@@ -70,3 +70,20 @@
 .text .text-name{
     color: #666666;
 }
+
+@media only screen and (max-width: 800px) {
+    .content{
+        width: 48%;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .content{
+        width: 100%;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+}

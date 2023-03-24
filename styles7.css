@@ -10,17 +10,19 @@
 
 .wapper-top {
     border-bottom: 1px solid #dddddd;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .wapper-top .content {
     width: 500px;
-    margin-right: 50px;
 }
 
 .wapper-bottom .content {
     width: 500px;
-    margin-left: 50px;
+}
+
+.content h2, p{
+    color: #999;
 }
 
 .wapper-top .content input {
@@ -49,4 +51,25 @@
         display: flex;
         justify-content: center;
     }
+}
+
+@media only screen and (max-width: 1024px) {
+    .container{
+        width: 100%;
+        margin: 10px;
+    }
+
+    .wapper-top .content{
+        margin-left: 0;
+    }
+
+    .content-img{
+        margin-bottom: 20px;
+    }
+
+    .wapper-bottom{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
 }

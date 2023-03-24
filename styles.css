@@ -1,0 +1,6 @@
+.page{
+    background-image: linear-gradient(to right, rgba(2, 2, 2, 0.664), rgba(0,0,0,0.5));
+    width: 1200px;
+    height: 1000px;
+    background-size: cover;
+}

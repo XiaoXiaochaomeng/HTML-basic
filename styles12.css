@@ -1,5 +1,11 @@
+.page{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .container {
-    width: 1000px;
+    width: 80%;
 }
 
 .container p {
@@ -16,11 +22,10 @@
 
 .wapper {
     width: 100%;
-    height: 500px;
+    height: 600px;
 }
 
 .wapper .info {
-    width: 200px;
     float: left;
 }
 
@@ -39,6 +44,7 @@
     margin: 15px;
     color: #999;
     display: flex;
+    align-items: center;
 }
 
 .info-user i {
@@ -68,6 +74,7 @@
 
 .input-textarea textarea {
     width: 100%;
+    resize: none;
 }
 
 .input-submit input {
@@ -78,25 +85,23 @@
     cursor: pointer;
 }
 
-@media only screen and (min-width:1024px) {
+@media only screen and (min-width:1130px) {
     .write {
-        width: 600px;
+        width: 500px;
         margin-left: 50px;
     }
 }
 
-@media only screen and (max-width:1023px) {
+@media only screen and (max-width:1129px) {
     .write {
-        width: 300px;
-        margin-left: 50px;
+        width: 80%;
+        margin: 10px;
     }
+
+    .container{
+        width: 100%;
+        margin: 10px;
+    }
+
 }
 
-@media only screen and (max-width: 640px){
-    .wapper .info{
-        float: none;
-    }
-    .write{
-        margin: 0;
-    }
-}

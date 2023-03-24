@@ -37,7 +37,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
-    background-size: 60px;
+    background-size: 80px;
 }
 
 .logo-2 {
@@ -47,7 +47,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
-    background-size: 150px;
+    background-size: 200px;
 }
 
 .logo-1 {
@@ -57,7 +57,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
-    background-size: 150px;
+    background-size: 200px;
 }
 
 .logo-4 {
@@ -67,7 +67,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
-    background-size: 150px;
+    background-size: 200px;
 }
 
 .content-logo p {
@@ -76,12 +76,22 @@
     font-style: italic;
 }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 840px) {
     .wapper {
         float: none;
+        height: 800px;
+    }
+
+    .container{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin: 10px;
     }
 
     .content {
-        padding: 50px;
+        padding: 0;
+        margin: 0;
+        width: 100%;
     }
 }

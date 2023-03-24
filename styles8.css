@@ -20,13 +20,25 @@
 
 .name-comment{
     height: 50px;
-    width: 650px;
+    width: 90%;
     float:left;
+}
+
+.name-comment .doc-1{
+    font-weight: bold;
+}
+
+.name-comment .doc-2{
+    font-size: 14px;
+}
+
+.name-comment span{
+    color: rgb(113, 194, 0);
 }
 
 .comment-icon{
     height:50px;
-    width: 50px;
+    width: 10%;
     float:left;
     display: flex;
     justify-content: center;
@@ -38,8 +50,13 @@
     border: 1px solid #DDDDDD;
 }
 
+.wapper .doc{
+    font-size: 24px; 
+    text-transform: uppercase;
+}
+
 .header-comment{
-    height: 60px;
+    height: 80px;
 }
 
 .comment-text{
@@ -54,18 +71,25 @@
     font-weight: 600;
 }
 
-@media only screen and (max-width: 740px){
-    .name-comment{
-        width: 400px;
-    }
-}
-
-@media only screen and ( max-width: 500px){
-    .text-comment{
-        float: left;
-    }
-
+@media only screen and (max-width: 540px) {
     .comment{
-        height:200px;
+        height: 150px;
+    }
+
+    .wapper{
+        margin: 10px;
     }
 }
+
+@media only screen and (max-width: 400px) {
+    .comment{
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 240px) {
+    .comment{
+        height: 300px;
+    }
+}
+

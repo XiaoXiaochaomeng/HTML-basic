@@ -14,7 +14,7 @@
 }
 
 .content-list {
-    width: 33%;
+    width: 100%;
     float: left;
 }
 
@@ -26,6 +26,8 @@
     margin-bottom: 10px;
     list-style: none;
     color: #999;
+    width: 33%;
+    float: left;
 }
 
 .content-list ul li i {
@@ -33,8 +35,40 @@
     color: #CCFF33;
 }
 
-@media only screen and (max-width: 740px) {
-   .content-list{
-    float: none;
+.header p{
+    color: #999;
+}
+
+@media only screen and (max-width: 960px) {
+   .content{
+    width: 100%;
+    margin: 10px;
    }
+}
+
+@media only screen and (max-width: 540px) {
+    .content-list ul li{
+        width: 50%;
+        float: left;
+    }
+
+    .content{
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .content-list ul li{
+        width: 100%;
+        float: left;
+    }
+
+    .content{
+        margin: 10px;
+    }
+
+    .content-list {
+        margin-left: 20%;
+    }
+        
 }
